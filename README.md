@@ -437,7 +437,7 @@ You don't need to put `progn` because `leaf` can receive multiple S-expressions,
 ```emacs-lisp
 (cort-deftest-with-macroexpand leaf/preface
   '(
-    ;; sexp will be expanded in order of :preface, :when, :require, :init, :config.
+    ;; sexp will be expanded in order of :preface, :when, :init, :require, :config.
     ((leaf leaf
        :require t
        :preface (preface-init)

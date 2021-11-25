@@ -455,7 +455,7 @@ S-expressions, but you can do so if you prefer it.
 #+begin_src emacs-lisp
   (cort-deftest-with-macroexpand leaf/preface
     '(
-      ;; sexp will be expanded in order of :preface, :when, :require, :init, :config.
+      ;; sexp will be expanded in order of :preface, :when, :init, :require, :config.
       ((leaf leaf
          :require t
          :preface (preface-init)
